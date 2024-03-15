@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mathematical_calculator</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 100%;
+            margin: auto;  
+            text-align: center;
+            background-color: rgba(128, 175, 236, 0.709);
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="calculator.php" method="post">
+            <input type="number" name="num1" placeholder="enter any number">
+            <input type="number" name="num2" placeholder="enter any number">
+            <select name="operator">
+                <option value="/"> (Division)</option>
+                <option value="*"> (Multiplication)</option>
+                <option value="+"> (Addition)</option>
+                <option value="-"> (Subtraction)</option>
+            </select>  
+            <button type="submit">Calculate</button>  
+        </form>
+    </div>
+</body>
+</html>

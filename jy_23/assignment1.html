@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment1</title>
+    <style>
+body{
+    background-color: rgb(77, 185, 149);
+}
+        .cont{
+            width: 100%;
+            height:100%;
+            justify-content: center;
+            
+            
+            }
+        .cont input[type="text"]{
+            width:250px;
+            height:50px;
+            border: 10px;
+            margin:12px ;
+            padding:6%;
+            border-radius: 10px solid rgb(134, 161, 26);
+
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <form action="submit.php" method="post">
+            <input type="text" name="firstname" placeholder="firstname"><br><br>
+            <input type="text" name="lastname" placeholder="lastname"><br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="cancel">
+        </form>
+    </div>
+</body>
+</html>
